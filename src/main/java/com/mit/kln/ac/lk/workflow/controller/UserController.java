@@ -28,9 +28,7 @@ import static org.springframework.http.ResponseEntity.ok;
 public class UserController {
 
     @Autowired
-    /**
-     *
-     */
+
     private UserService userService;
 
     //Get all Users
